@@ -14,10 +14,10 @@
 
 
             $.ajax({
-                url : 'resources/datos_Persona.txt',
-                DataType: 'text',
+                url : "resources/datos_Persona.txt",
+                dataType: "text",
                 success : function (data) {
-                    $(".text").html(data);
+                    $("#container").html(data);
                 }
             });
 
