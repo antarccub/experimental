@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8f6d22b-8d85-4acb-935e-a301dc44fc56" name="Default" comment="creacion de fichero externo para la ejecucion de scripts">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/custom-script.js" />
+    <list default="true" id="b8f6d22b-8d85-4acb-935e-a301dc44fc56" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="experimental.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -210,6 +208,13 @@
       <option name="number" value="Default" />
       <updated>1457378040526</updated>
     </task>
+    <task id="LOCAL-00001" summary="creacion de fichero externo para la ejecucion de scripts">
+      <created>1457526284941</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1457526284941</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
