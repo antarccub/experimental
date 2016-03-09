@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8f6d22b-8d85-4acb-935e-a301dc44fc56" name="Default" comment="">
+    <list default="true" id="b8f6d22b-8d85-4acb-935e-a301dc44fc56" name="Default" comment="Carga dinamica de script Plotly.js utilizando evento de  click (boton)">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom-script.js" afterPath="$PROJECT_DIR$/js/custom-script.js" />
     </list>
     <ignored path="experimental.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,9 +29,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-22.23077">
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,8 +43,14 @@
         <entry file="file://$PROJECT_DIR$/js/custom-script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.33278957">
-              <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
-              <folding />
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="e#1231#1661#0" expanded="false" />
+                <element signature="e#1689#2122#0" expanded="false" />
+                <element signature="e#2244#2594#0" expanded="false" />
+                <element signature="e#2622#2975#0" expanded="false" />
+                <element signature="e#3101#3370#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,7 +171,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -214,7 +225,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457526284941</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="creacion de fichero externo para la ejecucion de scripts">
+      <created>1457526322606</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1457526322606</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -246,7 +263,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creacion de fichero externo para la ejecucion de scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="creacion de fichero externo para la ejecucion de scripts" />
+    <MESSAGE value="Carga dinamica de script Plotly.js utilizando evento de  click (boton)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Carga dinamica de script Plotly.js utilizando evento de  click (boton)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -279,17 +297,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-22.23077">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/custom-script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33278957">
-          <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
-          <folding />
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="e#1231#1661#0" expanded="false" />
+            <element signature="e#1689#2122#0" expanded="false" />
+            <element signature="e#2244#2594#0" expanded="false" />
+            <element signature="e#2622#2975#0" expanded="false" />
+            <element signature="e#3101#3370#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
